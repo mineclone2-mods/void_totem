@@ -9,7 +9,11 @@ minetest.register_craftitem("void_totem:totem", {
 	description = S("Totem of Void Undying"),
 	_tt_help = C(mcl_colors.GREEN, S("Protects you from void death while wielding it")),
 	_doc_items_longdesc = S("A totem of void undying is a rare artifact which may safe you from void death."),
-	_doc_items_usagehelp = S("The totem only works while you hold it in your hand. If you die in the void, you will be teleported back to the surfact with 1 HP. The totem is destroyed in the process, however."),
+	_doc_items_usagehelp = S(
+		"The totem only works while you hold it in your hand. "..
+		"If you die in the void, you will be teleported back to the surfact with 1 HP. "..
+		"The totem is destroyed in the process, however."
+	),
 	inventory_image = "void_totem_totem.png",
 	wield_image = "void_totem_totem.png",
 	stack_max = 1,
@@ -36,6 +40,7 @@ mcl_damage.register_modifier(function(obj, damage, reason)
 			local ppos = obj:get_pos()
 			local _, is_in_deadly_void = mcl_worlds.is_in_void(ppos)
 			if not is_in_deadly_void then return end
+
 			local hp = obj:get_hp()
 			if hp - damage <= 0 then
 				local wield = obj:get_wielded_item()
@@ -65,6 +70,7 @@ mcl_damage.register_modifier(function(obj, damage, reason)
 					obj:add_velocity(vector.multiply(vel, -1))
 					mcl_spawn.spawn(obj)
 
+					-- Update player position (to add the particles to the right place)
 					ppos = obj:get_pos()
 
 					-- Effects
