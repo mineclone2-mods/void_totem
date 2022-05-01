@@ -45,7 +45,7 @@ mcl_damage.register_modifier(function(obj, damage, reason)
 			if hp - damage <= 0 then
 				local wield = obj:get_wielded_item()
 				local in_offhand = false
-				if not (wield:get_name() == "void_totem:totem") then
+				if wield:get_name() ~= "void_totem:totem" then
 					local inv = obj:get_inventory()
 					if inv then
 						wield = obj:get_inventory():get_stack("offhand", 1)
