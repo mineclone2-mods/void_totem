@@ -8,7 +8,7 @@ A porting of the [Void Totem](https://www.curseforge.com/minecraft/mc-mods/voidt
 
 **State:** WIP
 
-[![Not Yet](https://img.shields.io/static/v1?label=ContentDB&message=Not%20Yet&color=ff2921)](https://github.com/mineclone2-mods/template-mod)
+[![ContentDB](https://content.minetest.net/packages/mineclone2-mods/void_totem/shields/title/)](https://content.minetest.net/packages/mineclone2-mods/void_totem/)
 
 [![MineClone2 Version](https://img.shields.io/badge/MineClone2-master-green)](https://git.minetest.land/MineClone2/MineClone2)
 
