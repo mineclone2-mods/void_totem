@@ -1,10 +1,10 @@
-# template-mod
+# Void Totem
 
-A porting of a Minecraft mod to [MineClone2](https://content.minetest.net/packages/Wuzzy/mineclone2/).
+A porting of the [Void Totem](https://www.curseforge.com/minecraft/mc-mods/voidtotem) Minecraft mod to [MineClone2](https://content.minetest.net/packages/Wuzzy/mineclone2/).
 
 ## Informations
 
-**Maintainer:** github user
+**Maintainer:** AFCMS
 
 **State:** WIP
 
@@ -14,4 +14,4 @@ A porting of a Minecraft mod to [MineClone2](https://content.minetest.net/packag
 
 [![Minetest Version](https://img.shields.io/badge/Minetest-5.4.1-green)](https://github.com/minetest/minetest/releases/tag/5.4.1)
 
-project description
+A totem that prevents you from dying in the void.
