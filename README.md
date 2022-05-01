@@ -6,7 +6,7 @@ A porting of the [Void Totem](https://www.curseforge.com/minecraft/mc-mods/voidt
 
 **Maintainer:** AFCMS
 
-**State:** WIP
+**State:** Maintenance
 
 [![ContentDB](https://content.minetest.net/packages/mineclone2-mods/void_totem/shields/title/)](https://content.minetest.net/packages/mineclone2-mods/void_totem/)
 

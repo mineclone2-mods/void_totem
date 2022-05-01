@@ -3,7 +3,7 @@
 	"title": "Void Totem",
 	"name": "void_totem",
 	"short_description": "A totem that prevents you from dying in the void.",
-	"dev_state": "WIP",
+	"dev_state": "MAINTENANCE_ONLY",
 	"tags": ["survival"],
 	"content_warnings": [],
 	"license": "GPL-3.0-or-later",
