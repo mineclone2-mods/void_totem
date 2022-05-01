@@ -15,3 +15,5 @@ A porting of the [Void Totem](https://www.curseforge.com/minecraft/mc-mods/voidt
 [![Minetest Version](https://img.shields.io/badge/Minetest-5.4.1-green)](https://github.com/minetest/minetest/releases/tag/5.4.1)
 
 A totem that prevents you from dying in the void.
+
+Texture is a modified version of MineClone2 totem, under CC-BY-4.0
